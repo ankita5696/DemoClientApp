@@ -1,0 +1,22 @@
+<table border="1">
+    <tr>
+        <td colspan="2">SCM Header</td>
+        
+    </tr>
+    <tr>
+        <td>
+            <a [routerLink]="['Home']">Home</a><br>
+            <a [routerLink]="['HealthIssue/List']">HealthIssue List</a><br>
+           
+        </td>
+        <td>   
+            <div>
+                <router-outlet></router-outlet>   
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">SCM Footer</td>
+        
+    </tr>
+</table>
